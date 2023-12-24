@@ -13,7 +13,7 @@ async def lq_():
 
 @command.got("pb")
 async def pq_(reply: str = ArgPlainText('pb')):
-    if reply == '抛杯':
+    if reply == '抛杯' or reply == '拋杯':
         for i in range(3):
             a = random.randint(0,100)
             if a >= 15 :
